@@ -1,4 +1,4 @@
 (function helloworld(){
-    document.write(<h2>Hello World!</h2>);
+    document.write("<h2>Hello World!</h2>");
     console.log("Hello World!");
 }).call(this);
