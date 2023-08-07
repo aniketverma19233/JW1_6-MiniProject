@@ -17,7 +17,7 @@ const loadScript = (FILE_URL, async = true, type = "text/javascript") => {
                 });
             });
 
-            document.body.getElementsByTagName("div").appendChild(scriptEle);
+            document.getElementsByTagName("div").appendChild(scriptEle);
         } catch (error) {
             reject(error);
         }
