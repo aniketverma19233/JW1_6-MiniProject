@@ -17,7 +17,7 @@ const loadScript = (FILE_URL, async = true, type = "text/javascript") => {
                 });
             });
 
-            document.getElementById("xml-editor-app").appendChild(scriptEle);
+            document.getElementById("xml-editor-app").innerHTML += scriptEle;
         } catch (error) {
             reject(error);
         }
