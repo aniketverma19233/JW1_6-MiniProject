@@ -24,14 +24,10 @@ const loadScript = (FILE_URL, async = true, type = "text/javascript") => {
     });
 };
 
-// loadScript("https://cdn.jsdelivr.net/gh/aniketverma19233/JW1_6-MiniProject@latest/tcx.js").then( data  => {
-//         console.log("Script loaded successfully", data);
-//     })
-//     .catch( err => {
-//         console.error(err);
-//     });
+loadScript("https://cdn.jsdelivr.net/gh/aniketverma19233/JW1_6-MiniProject@latest/tcx.js").then( data  => {
+        console.log("Script loaded successfully", data);
+    })
+    .catch( err => {
+        console.error(err);
+    });
 
-var s = document.createElement("script");
-s.type = "text/javascript";
-s.src = "https://cdn.jsdelivr.net/gh/aniketverma19233/JW1_6-MiniProject@latest/tcx.js";
-$("body").append(s);
