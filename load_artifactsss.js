@@ -17,6 +17,10 @@ const loadScript = (FILE_URL, async = true, type = "text/javascript") => {
             });
 
             document.head.appendChild(scriptEle);
+            window.document.dispatchEvent(new Event("DOMContentLoaded", {
+            bubbles: true,
+              cancelable: true
+            }));
         } catch (error) {
             reject(error);
         }
