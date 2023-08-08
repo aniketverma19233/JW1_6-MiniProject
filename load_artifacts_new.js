@@ -38,6 +38,6 @@ Object.entries(artifacts).forEach(([file, version]) =>
     })
     .catch( err => {
         console.error(err);
-    });
+    })
     
 )
