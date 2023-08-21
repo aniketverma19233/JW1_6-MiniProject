@@ -1,6 +1,7 @@
 
 const artifacts = {"tcx.js":"4.3.1"}; // file name, along with version number
-const BASE_PATH = "https://cdn.jsdelivr.net/gh/aniketverma19233/JW1_6-MiniProject@latest/"
+//const BASE_PATH = "https://cdn.jsdelivr.net/gh/aniketverma19233/JW1_6-MiniProject@latest/"
+const BASE_PATH = "https://main--my-cdn-website--aniketverma19233.hlx.live/"
 
 const loadScript = (FILE_URL, async = true, type = "text/javascript") => {
     return new Promise((resolve, reject) => {
